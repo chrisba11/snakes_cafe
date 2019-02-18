@@ -6,3 +6,4 @@ The user must respond to the prompt with the exact name (case sensitive) of one 
 
 When the user types a valid item, that item will be added to the order and they will receive an alert that the item has been added. If they add more than one of an item, the grammar will change to indicate plurality.
 
+When the user types "quit", their order will be complete and will be printed to the screen.
