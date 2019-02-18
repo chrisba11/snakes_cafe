@@ -91,5 +91,10 @@ else:
   print("""
 ** Thank you for your order! **
 """)
-
-
+  for i in customer_order:
+    if customer_order[i] == 1:
+      print(f'{customer_order[i]} order of {i}')
+      print('')
+    elif customer_order[i] > 1:
+      print(f'{customer_order[i]} orders of {i}')
+      print('')
